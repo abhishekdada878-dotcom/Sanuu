@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Pukuliii, AARUSHIIII💖💖</title>
+<style>
+body {
+    background-color: #101020;
+    color: white;
+    text-align: center;
+    font-family: Georgia, serif;
+    padding: 40px 15px;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #ff9acb;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#secret {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ff69b4;
+    border-radius: 20px;
+    line-height: 1.8;
+}
+
+.hearts {
+    color: #ff9acb;
+    font-size: 24px;
+ }
+ 
+ .floating-heart {
+     position: fixed;
+     bottom: -30px;
+     font-size: 25px;
+     animation: floatUp 5s linear
+     pointer-events: none;
+     z-index: 999;
+ }
+
+ @keyframes floatUp {
+     0% {
+         transform: translateY(0);
+         opacity: 1;
+     }
+
+     100% {
+         transform: translateY(-100vh);
+     }
+  }
+</style>
+</head>
+<body>
+    <h1>Oii, Sanuu.💖💖</h1>
+    <p>I made something for you syanii.</p>
+
+    <button onclick="showLove()">
+        Tap here, sanu💌💘
+    </button>
+    
+    <div id="secret" style="display:none;">
+        <h2>Just for you, pukuu 💖💕</h2>
+
+        <p>
+            My dear pukulii, you make my ordinary days special.
+            No matter how my day goes, you bring happiness into my world.
+            I loveeeeeeeeee youuuuuuu sooooo muchhh sanuuuuuuu🤭💖💖
+        </p>
+
+        <p class="hearts">🩷 ✨ 💖 ✨ 🩷</p>
+
+        <p>
+            If I could give you one thing, it would be
+            the ability to see yourself through my eyes.
+            Then you'd understand how special you are to me.👀💖
+        </p>
+    </div>
+
+    <script>
+        function showLove() {
+            document.getElementById("secret").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
